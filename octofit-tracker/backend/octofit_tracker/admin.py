@@ -1,3 +1,4 @@
+# Register models in the admin site
 from django.contrib import admin
 from .models import User, Team, Activity, Leaderboard, Workout
 
