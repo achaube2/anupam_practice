@@ -6,7 +6,7 @@ SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'redesigned-spork-g6pj46rr9hpp6x-8000.app.github.dev']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -95,4 +95,3 @@ CORS_ALLOW_METHODS = [
     'GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'
 ]
 CORS_ALLOW_HEADERS = ['*']
-ALLOWED_HOSTS = ['*']
